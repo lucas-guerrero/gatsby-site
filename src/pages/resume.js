@@ -1,15 +1,15 @@
 import * as React from "react"
 
 import Header from "../components/header.js"
-import Propos from "../components/propos.js"
+import Resume from "../components/resume.js"
 
 
-const IndexPage = () => (
+const ResumePage = () => (
 	<>
 		<Header/>
 		<br/>
-		<Propos/>
+		<Resume/>
 	</>
 )
 
-export default IndexPage
+export default ResumePage
